@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    height: 50px;
+    background-color: rgb(224, 224, 224);
+    outline: none;
+    padding: 0px 15px;
+}
+form input[type="submit"]{
+    height: 50px;
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+    transition: .4s all;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(139, 139, 139);
+    transition: .4s all;
+}
+table th{
+    padding: 5px 10px;
+}
+table td{
+    padding: 5px 10px;
+}
